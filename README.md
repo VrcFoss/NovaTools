@@ -68,7 +68,6 @@ Using the Tools:
 
 🌐 **Useful Links**
 
-    🌍 Official Website https://yotva.shop
-
-https://github.com/Lagrandelouise/NovaTools/releases/tag/blender
+    🌍 Official Website [yotva website](https://yotva.shop)
+    🧰 [Releases](https://github.com/Lagrandelouise/NovaTools/releases/tag/blender)
     
