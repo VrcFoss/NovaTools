@@ -6,6 +6,7 @@ Version: 1.6
 
 Compatible with: Blender **3.0+**
 
+
 🎯 **What is Nova Tools?**
 
 Nova Tools is a Blender addon designed to simplify the rigging and clothing process for avatars. It offers convenient features such as:
@@ -65,6 +66,6 @@ Using the Tools:
     Auto weight painting is still in Beta — check your weights after.
     Always save your file before deleting bones!
 
-🌐 Useful Links
+🌐 **Useful Links**
 
     🌍 Official Website https://yotva.shop
