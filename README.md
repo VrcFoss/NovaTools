@@ -64,5 +64,4 @@ Using the Tools:
 
 🌐 Useful Links
 
-    🔽 Download Nova Tools (latest)
-    🌍 Official Website (Yotva)
+    🌍 Official Website https://yotva.shop
