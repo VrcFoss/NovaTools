@@ -1,9 +1,12 @@
 🧰 **Nova Tools** – Blender Addon
 
 Developed by VrcFoss (Yotva)
+
 Version: 1.6
-Compatible with: Blender 3.0+
-🎯 What is Nova Tools?
+
+Compatible with: Blender **3.0+**
+
+🎯 **What is Nova Tools?**
 
 Nova Tools is a Blender addon designed to simplify the rigging and clothing process for avatars. It offers convenient features such as:
 
