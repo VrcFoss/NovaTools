@@ -2,8 +2,6 @@
 
 Developed by VrcFoss (Yotva)
 
-Version: 1.6
-
 Compatible with: Blender **3.0+**
 
 
