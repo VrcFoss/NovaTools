@@ -70,5 +70,5 @@ Using the Tools:
 
 🌍 [Official Website](https://yotva.shop)
 
-🧰 [Releases](https://github.com/VrcFoss/NovaTools/releases/tag/blender)
+🧰 [Releases](https://github.com/VrcFoss/NovaTools/releases)
     
