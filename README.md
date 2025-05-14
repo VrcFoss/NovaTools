@@ -66,7 +66,7 @@ Using the Tools:
 
 🌐 **Useful Links**
 
-🌍 [Official Website](https://yotva.shop)
+🌍 [Official Website](https://vrcfoss.fr)
 
 🧰 [Releases](https://github.com/VrcFoss/NovaTools/releases)
     
