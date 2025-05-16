@@ -5,68 +5,88 @@ Developed by VrcFoss (Yotva)
 Compatible with: Blender **3.0+**
 
 
-🎯 **What is Nova Tools?**
+**Nova Tools** is a Blender addon designed to simplify the process of rigging and combining clothing with body meshes.  
+It includes tools for automatic bone copying, weight transfer, scale correction, and bone cleanup.
 
-Nova Tools is a Blender addon designed to simplify the rigging and clothing process for avatars. It offers convenient features such as:
+> Available in: 🇬🇧 English | 🇫🇷 French | 🇯🇵 Japanese | 🇷🇺 Russian
 
-    Automatic merging of clothing with the main body and armature.
-    Auto weight painting for fast and effective rigging.
-    Removal of unused bones in your armature.
-    Multilingual interface: English, French, Japanese.
+---
 
-⚙️ **Key Features**
-1. Default Collections Creation
+## 🔧 Features
 
-One click to auto-create two useful collections:
+- **1. Setup Collections**
+  - Automatically creates two collections:
+    - `To_combine`: for clothing items
+    - `Body`: for the character mesh and armature
 
-    To_combine → for all clothing meshes.
-    Body → contains the main mesh and its armature.
+- **2. Combine Clothes**
+  - Transfers clothing into the Body collection
+  - Copies missing bones from clothing armature to body armature
+  - Applies scale correction based on reference bones (e.g., head)
+  - Preserves constraints & custom properties
+  - Transfers vertex weights
 
-2. Combine Clothes
+- **3. Auto Weight Paint (Beta)**
+  - Automatically assigns weights from an armature to a selected mesh
 
-This tool:
+- **4. Clean Up Bones**
+  - Removes unused bones from the armature
+  - Option to exclude specific bones from deletion
 
-    Adds an Armature modifier to each clothing mesh.
-    Parents clothes to the body’s armature.
-    Merges all selected meshes into the main body.
+---
 
-3. Auto Weight Paint (Beta)
+## 🛠️ Installation
 
-Automatically assigns weight paint to meshes using Blender's automatic weight system.
-4. Remove Unused Bones
+1. Open **Blender**
+2. Go to *Edit > Preferences > Add-ons*
+3. Click *Install* and select `NovaTools_v3.py`
+4. Enable the module
 
-This feature:
+---
 
-    Detects which bones are not used in vertex groups.
-    Deletes unused bones while keeping important ones based on your exclusion list.
+## 📖 Usage Guide
 
-🧪 **How to Use**
-Installation:
+### 1. Prepare Your Scene
 
-    Download the file Nova_Tools_Updated.py.
-    In Blender:
-    Go to Edit > Preferences > Add-ons.
-    Click Install..., choose the downloaded file, and enable the addon.
+- Place your **body mesh + armature** inside the `Body` collection.
+- Put all **clothing meshes** in the `To_combine` collection.
+- If they don't exist yet, click **"Create Default Collections"**
 
-Using the Tools:
+### 2. Combine Clothing With Body
 
-    Go to the Nova Tools tab in the 3D View Sidebar.
-    Use the "Create Collections" button first.
-    Add your clothing to "To_combine", your body to "Body".
-    Use the tools in order:
-        Combine Clothes
-        Auto Weight Paint
-        Remove Unused Bones (optional)
+1. Ensure clothing items are in the `To_combine` collection.
+2. Click **"Combine"** under "2. Combine Clothes".
+3. The plugin will:
+   - Copy missing bones from clothing’s armature to body’s armature
+   - Adjust clothing scale to match the body
+   - Link clothing to the body’s armature
+   - Move clothing to the `Body` collection and hide `To_combine`
 
-📌 **Notes**
+> 💡 Tip: If your clothes already have weights or constraints, they’ll be preserved!
 
-    Collections must be named exactly: "To_combine" and "Body".
-    Auto weight painting is still in Beta — check your weights after.
-    Always save your file before deleting bones!
+### 3. Auto Weight Paint (Beta)
 
-🌐 **Useful Links**
+Use this to auto-generate weights:
 
-🌍 [Official Website](https://vrcfoss.fr)
+1. Select a mesh object
+2. Choose the target armature from the dropdown
+3. Click **"Generate Weights"**
+4. The mesh will be parented using automatic weight painting
+
+> ⚠️ This feature is still in beta and works best for simple cases.
+
+### 4. Clean Up Unused Bones
+
+1. Optionally add bones you want to keep in the **“Exclude Bones”** list
+2. Click **"Remove Unused Bones"**
+3. Any unused bones not excluded will be deleted
+
+---
+
+## 💬 About
+
+Developed by **VrcFoss (Yotva)**  
+🔗 [https://vrcfoss.fr ](https://vrcfoss.fr )
 
 🧰 [Releases](https://github.com/VrcFoss/NovaTools/releases)
     
