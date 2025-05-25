@@ -83,6 +83,38 @@ Use this to auto-generate weights:
 
 ---
 
+## 🤝 How to contribute
+
+NovaTools is an open-source project, and all contributions are welcome! Here's how you can participate:
+
+### 🔧 For Developers
+- **Report bugs** via GitHub Issues
+- **Suggest fixes** or improvements via Pull Requests
+- **Add new languages** to the centralized translation system (`t(key)`)
+- **Improve tests** with Blender 3.x / 4.x
+
+### 🌍 For Translators
+- Add new languages ​​to the `t(key)` function (main file)
+- Translate labels, errors, tooltips, and descriptions
+- Ensure existing translations are up to date
+
+### 🎨 For UI/UX Designers
+- Improve the organization of the Nova Tools panel
+- Create custom icons
+- Optimize usability for beginners
+
+### 📦 For Users
+- Test new versions and report bugs
+- Share your workflows to inspire others Users
+- Create video or written tutorials to explain features
+
+If you want to contribute, don't hesitate to:
+- Fork this repository
+- Open an issue to discuss an idea or bug
+- Send a pull request with your changes
+
+Thanks in advance for your help 👏
+
 ## 💬 About
 
 Developed by **VrcFoss (Yotva)**  
