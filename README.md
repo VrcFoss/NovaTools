@@ -39,7 +39,7 @@ It includes tools for automatic bone copying, weight transfer, scale correction,
 
 1. Open **Blender**
 2. Go to *Edit > Preferences > Add-ons*
-3. Click *Install* and select `NovaTools_v3.py`
+3. Click *Install* and select `NovaTools.py`
 4. Enable the module
 
 ---
@@ -86,7 +86,7 @@ Use this to auto-generate weights:
 ## 💬 About
 
 Developed by **VrcFoss (Yotva)**  
-🔗 [https://vrcfoss.fr ](https://vrcfoss.fr )
+🔗 [https://vrcfoss.fr ](https://vrcfoss.fr)
 
 🧰 [Releases](https://github.com/VrcFoss/NovaTools/releases)
     
