@@ -1771,7 +1771,6 @@ class NOVA_PT_MainPanel(Panel):
 
     def _draw_shapekeys(self, box, context):
         scene = context.scene
-        box.operator("nova.add_visemes",           icon="SHAPEKEY_DATA")
         box.operator("nova.add_mmd_shape_keys",    icon="SHAPEKEY_DATA")
         box.separator()
         box.label(text=t("btn.manage_shapekeys"),  icon="SHAPEKEY_DATA")
