@@ -96,3 +96,8 @@ https://github.com/VrcFoss/NovaTools
 ## Support
 
 GitHub Issues page for bug reports and feature requests.
+
+---
+
+## By
+VrcFoss (Yotva) - Vrcfoss.fr
