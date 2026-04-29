@@ -1,124 +1,98 @@
-🧰 **Nova Tools** – Blender Addon
+# Nova Tools
+
+Professional Blender addon focused on VRChat, MMD, avatar optimization, rigging and workflow acceleration.
 
 Developed by VrcFoss (Yotva)
 
-Compatible with: Blender **3.0+**
+## Features
 
+### Collection Setup
+- Create ready-to-use project collections
+- Body / Clothes / Props / FX organization
 
-**Nova Tools** is a Blender addon designed to simplify the process of rigging and combining clothing with body meshes.  
-It includes tools for automatic bone copying, weight transfer, scale correction, and bone cleanup.
+### Combine Clothes
+- Merge clothing meshes into body meshes
+- Merge armatures automatically
+- Shape key conflict handling
 
-> Available in: 🇬🇧 English | 🇫🇷 French | 🇯🇵 Japanese | 🇷🇺 Russian
+### Weight Tools
+- Transfer weights
+- Auto weight paint
+- Normalize weights
+- Mirror vertex groups
+- Clean unused groups
 
----
+### Bone Tools
+- Remove unused bones
+- Add root bone
+- Fix bone axes
+- Assign bone colors
 
-## 🔧 Features
+### Mesh Tools
+- Symmetry detection
+- Mesh symmetrize
+- Center origins
+- Mesh validation
+- Smart decimation
+- Detect ngons
+- UV overlap detection
+- Auto smooth setup
+- Vertex merge optimization
 
-- **1. Setup Collections**
-  - Automatically creates two collections:
-    - `To_combine`: for clothing items
-    - `Body`: for the character mesh and armature
+### Material Tools
+- Cleanup duplicate materials
+- Fix alpha blend modes
+- Remove empty material slots
+- Toon shader generator
 
-- **2. Combine Clothes**
-  - Transfers clothing into the Body collection
-  - Copies missing bones from clothing armature to body armature
-  - Applies scale correction based on reference bones (e.g., head)
-  - Preserves constraints & custom properties
-  - Transfers vertex weights
+### Shape Keys
+- Shape key manager
+- MMD expression support
 
-- **3. Auto Weight Paint (Beta)**
-  - Automatically assigns weights from an armature to a selected mesh
+### Scene Tools
+- Scene statistics
+- Scene cleaner
+- Batch rename
+- Collection color coding
 
-- **4. Clean Up Bones**
-  - Removes unused bones from the armature
-  - Option to exclude specific bones from deletion
+### Export Tools
+- Batch FBX export
+- Batch GLB export
+- VRChat validation tools
 
----
+### Additional Features
+- Multi-language support:
+  - English
+  - French
+  - Japanese
+  - Russian
 
-## 🛠️ Installation
-
-1. Open **Blender**
-2. Go to *Edit > Preferences > Add-ons*
-3. Click *Install* and select `NovaTools.py`
-4. Enable the module
-
----
-
-## 📖 Usage Guide
-
-### 1. Prepare Your Scene
-
-- Place your **body mesh + armature** inside the `Body` collection.
-- Put all **clothing meshes** in the `To_combine` collection.
-- If they don't exist yet, click **"Create Default Collections"**
-
-### 2. Combine Clothing With Body
-
-1. Ensure clothing items are in the `To_combine` collection.
-2. Click **"Combine"** under "2. Combine Clothes".
-3. The plugin will:
-   - Copy missing bones from clothing’s armature to body’s armature
-   - Adjust clothing scale to match the body
-   - Link clothing to the body’s armature
-   - Move clothing to the `Body` collection and hide `To_combine`
-
-> 💡 Tip: If your clothes already have weights or constraints, they’ll be preserved!
-
-### 3. Auto Weight Paint (Beta)
-
-Use this to auto-generate weights:
-
-1. Select a mesh object
-2. Choose the target armature from the dropdown
-3. Click **"Generate Weights"**
-4. The mesh will be parented using automatic weight painting
-
-> ⚠️ This feature is still in beta and works best for simple cases.
-
-### 4. Clean Up Unused Bones
-
-1. Optionally add bones you want to keep in the **“Exclude Bones”** list
-2. Click **"Remove Unused Bones"**
-3. Any unused bones not excluded will be deleted
+- GitHub auto-update system
 
 ---
 
-## 🤝 How to contribute
+## Installation
 
-NovaTools is an open-source project, and all contributions are welcome! Here's how you can participate:
+1. Download latest `NovaTools.py`
+2. Open Blender
+3. Edit > Preferences > Add-ons
+4. Install from disk
+5. Enable Nova Tools
 
-### 🔧 For Developers
-- **Report bugs** via GitHub Issues
-- **Suggest fixes** or improvements via Pull Requests
-- **Add new languages** to the centralized translation system (`t(key)`)
-- **Improve tests** with Blender 3.x / 4.x
+---
 
-### 🌍 For Translators
-- Add new languages ​​to the `t(key)` function (main file)
-- Translate labels, errors, tooltips, and descriptions
-- Ensure existing translations are up to date
+## Compatibility
 
-### 🎨 For UI/UX Designers
-- Improve the organization of the Nova Tools panel
-- Create custom icons
-- Optimize usability for beginners
+- Blender 5.1+
 
-### 📦 For Users
-- Test new versions and report bugs
-- Share your workflows to inspire others Users
-- Create video or written tutorials to explain features
+---
 
-If you want to contribute, don't hesitate to:
-- Fork this repository
-- Open an issue to discuss an idea or bug
-- Send a pull request with your changes
+## GitHub
 
-Thanks in advance for your help 👏
+https://github.com/VrcFoss/NovaTools
 
-## 💬 About
+---
 
-Developed by **VrcFoss (Yotva)**  
-🔗 [https://vrcfoss.fr ](https://vrcfoss.fr)
+## Support
 
-🧰 [Releases](https://github.com/VrcFoss/NovaTools/releases)
-    
+GitHub Issues page for bug reports and feature requests.
